@@ -1,9 +1,7 @@
 package com.tecsup.labs;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects; 
-
-/**
+/** 
  * Servicio de registro de usuarios mejorado para el laboratorio,
  * cumpliendo con estándares de calidad estática.
  */
