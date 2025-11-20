@@ -18,6 +18,14 @@ public class UserRegistrationService {
     }
 
     /**
+     * Retorna el último mensaje de error registrado.
+     * CORRECCIÓN CLAVE: Este es el "Getter" necesario para que Main.java acceda al campo privado.
+     */
+    public String getLastErrorMessage() {
+        return lastErrorMessage;
+    }
+
+    /**
      * Registra un nuevo usuario.
      * Retorna true si se registra, false en caso contrario.
      */
